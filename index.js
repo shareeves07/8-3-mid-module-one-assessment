@@ -52,9 +52,6 @@ function getAllKinds(animals) {
   for (const animal of animals) {
     result.push(animal.kind); 
     }
-  // for (let i = 0; i < animals.length; i += 1){
-  //   result.push(animals[i].kind);
-  // }
   return result;
 }
 
